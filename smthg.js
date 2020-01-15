@@ -87,7 +87,7 @@ generate.addEventListener( "click", function generateQuality(){
 ,"Self-Reliant",
 "Tolerant"];
 	var idek = qualities[Math.floor(Math.random()*qualities.length)];
-	certificate.insertAdjacentHTML( 'beforeend', 'Oh! Dear ' + name + " (also known as " + nickName + ') it seems like you are a ' + idek + " person, we like that !");
+	certificate.insertAdjacentHTML( 'beforeend', 'Oh! Dear ' + name + " (also known as " + nickName + ') it seems like you are a/an ' + idek + " person, we like that !");
 	var chosenColor = document.getElementById("chosenColor").value
 	certificate.style.backgroundColor = chosenColor;
 
